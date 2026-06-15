@@ -352,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative rounded-3xl bg-brand-gradient p-8 text-white shadow-elevated">
+                <div class="relative rounded-3xl bg-brand-gradient p-8 text-white shadow-elevated overflow-hidden">
                     <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gold/30 blur-xl"></div>
                     <x-icons.truck class="w-20 h-20 text-gold" />
                     <h3 class="mt-4 text-2xl font-extrabold">Same-day pickup in Jaipur</h3>
@@ -360,14 +360,14 @@
                         Book before 5 PM and our team will pick up your shipment the same
                         day from anywhere in Jaipur city.
                     </p>
-                    <div class="mt-5 flex flex-wrap gap-3">
+                    <div class="mt-5 flex flex-col sm:flex-row flex-wrap gap-4">
                         <a href="/contact"
-                            class="inline-flex items-center gap-2 rounded-full bg-whatsapp px-4 py-3 font-bold text-white shadow-elevated hover:brightness-105">
+                            class="inline-flex justify-center items-center gap-2 rounded-full bg-whatsapp px-4 py-3 font-bold text-white shadow-elevated hover:brightness-105">
                             <x-icons.whatsapp class="w-5 h-5" />
                             Book Pickup
                         </a>
                         <a href="tel:+919000000000"
-                            class="inline-flex items-center gap-2 rounded-full bg-danger px-4 py-3 font-bold text-white shadow-soft hover:brightness-110">
+                            class="inline-flex items-center justify-center gap-2 rounded-full bg-danger px-4 py-3 font-bold text-white shadow-soft hover:brightness-110">
                             <x-icons.phone class="w-5 h-5" /> Call Now
                         </a>
                     </div>
