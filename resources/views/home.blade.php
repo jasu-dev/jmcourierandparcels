@@ -1,5 +1,15 @@
 @extends('layouts.app')
 
+@push('meta')
+    <title>JM Courier, Cargo & Luggage Parcel Service in Jaipur - Pan-India Delivery</title>
+    <meta name="description" content="Leading courier, cargo, luggage transport, and parcel delivery service in Jaipur. Safe, fast, and cost-effective door-to-door pickup and shipping across India.">
+    <meta name="keywords" content="courier service jaipur, cargo service jaipur, luggage transport jaipur, parcel delivery jaipur, express logistics jaipur, door to door pickup jaipur">
+    <meta property="og:title" content="JM Courier, Cargo & Luggage Parcel Service in Jaipur-Pan-India Delivery">
+    <meta property="og:description" content="Leading courier, cargo, luggage transport, and parcel delivery service in Jaipur. Safe, fast, and cost-effective door-to-door pickup and shipping across India.">
+    <meta name="twitter:title" content="JM Courier, Cargo & Luggage Parcel Service in Jaipur-Pan-India Delivery">
+    <meta name="twitter:description" content="Leading courier, cargo, luggage transport, and parcel delivery service in Jaipur. Safe, fast, and cost-effective door-to-door pickup and shipping across India.">
+@endpush
+
 @section('content')
     <section class="relative overflow-hidden bg-hero-gradient text-white">
         <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-2">
@@ -9,7 +19,7 @@
                     <x-icons.map-pin class="text-gold" /> Based in Jaipur · Pan-India
                 </div>
                 <h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-                    Courier, Cargo, Luggage &amp; Parcel <span class="text-gold">Delivery</span> from Jaipur to all India
+                    Courier, Cargo, Luggage & Parcel <span class="text-gold">Delivery</span> from Jaipur to all India
                 </h1>
                 <p class="mt-4 max-w-xl text-white/85 sm:text-lg">
                     Fast pickups. Secure transit. On-time delivery. Trusted by hundreds of Jaipur customers

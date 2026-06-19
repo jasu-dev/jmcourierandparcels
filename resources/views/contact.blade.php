@@ -1,10 +1,20 @@
 @extends('layouts.app')
 
+@push('meta')
+    <title>Contact Us - Book Courier, Cargo & Luggage in Jaipur</title>
+    <meta name="description" content="Contact JM Courier in Jaipur to book a doorstep pickup, request a free shipping quote, or track your delivery. Phone, email, address, and online form.">
+    <meta name="keywords" content="contact jm courier, book pickup jaipur, courier office jaipur, get shipping quote, jaipur logistics contact">
+    <meta property="og:title" content="Contact Us - Book Courier, Cargo & Luggage in Jaipur">
+    <meta property="og:description" content="Contact JM Courier in Jaipur to book a doorstep pickup, request a free shipping quote, or track your delivery. Phone, email, address, and online form.">
+    <meta name="twitter:title" content="Contact Us - Book Courier, Cargo & Luggage in Jaipur">
+    <meta name="twitter:description" content="Contact JM Courier in Jaipur to book a doorstep pickup, request a free shipping quote, or track your delivery. Phone, email, address, and online form.">
+@endpush
+
 @section('content')
     <div class="bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
-            <h1 class="text-3xl font-extrabold sm:text-5xl">Contact &amp; Book Pickup</h1>
-            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">Talk to our Jaipur team — book a pickup, request a quote or
+            <h1 class="text-3xl font-extrabold sm:text-5xl">Contact & Book Pickup</h1>
+            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">Talk to our Jaipur team - book a pickup, request a quote or
                 get help with your shipment.</p>
         </div>
     </div>
@@ -72,7 +82,7 @@
                                 class="absolute bottom-0 right-0 w-3 h-3 bg-[#25D366] border-2 border-[#075e54] rounded-full animate-pulse"></span>
                         </div>
                         <div>
-                            <h3 class="font-display font-medium">JM Courier, Cargo &amp; Luggage</h3>
+                            <h3 class="font-display font-medium">JM Courier, Cargo & Luggage</h3>
                             <p class="text-[10px] opacity-80 uppercase tracking-widest">Typically responds in minutes</p>
                         </div>
                     </div>
@@ -81,7 +91,7 @@
                         style="background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); background-repeat: repeat; background-size: 400px;">
                         <div
                             class="bg-white p-4 rounded-2xl rounded-tl-none shadow-sm max-w-[85%] text-sm relative border border-border/50">
-                            <p class="text-foreground/80 leading-relaxed font-medium mb-1">JM Courier, Cargo &amp; Luggage</p>
+                            <p class="text-foreground/80 leading-relaxed font-medium mb-1">JM Courier, Cargo & Luggage</p>
                             <p class="text-foreground/70 leading-relaxed">Hi there! 👋 <br>
                                 How can we help you with your courier, cargo and luggage parcel needs today?</p>
                             <span class="text-[10px] text-muted-foreground mt-1 block text-right">Online</span>

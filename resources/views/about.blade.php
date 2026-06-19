@@ -1,4 +1,15 @@
 @extends('layouts.app')
+
+@push('meta')
+    <title>About Us - Trusted Logistics & Shipping Partner in Jaipur | JM Courier</title>
+    <meta name="description" content="Learn about JM Courier, a leading logistics provider in Jaipur. Our mission, values, network, and why we are trusted for cargo and courier delivery.">
+    <meta name="keywords" content="about jm courier, logistics company jaipur, domestic shipping network, trusted courier jaipur">
+    <meta property="og:title" content="About Us - Trusted Logistics & Shipping Partner in Jaipur | JM Courier">
+    <meta property="og:description" content="Learn about JM Courier, a leading logistics provider in Jaipur. Our mission, values, network, and why we are trusted for cargo and courier delivery.">
+    <meta name="twitter:title" content="About Us - Trusted Logistics & Shipping Partner in Jaipur | JM Courier">
+    <meta name="twitter:description" content="Learn about JM Courier, a leading logistics provider in Jaipur. Our mission, values, network, and why we are trusted for cargo and courier delivery.">
+@endpush
+
 @section('content')
     <div class="bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
@@ -18,7 +29,7 @@
                     <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">Built in Jaipur. Delivering across India.</h2>
                 </div>
                 <div class="mt-5 space-y-4 text-foreground/85">
-                    <p>JM Courier &amp; Luggage Parcel Service started in Jaipur with a simple mission — make sending
+                    <p>JM Courier & Luggage Parcel Service started in Jaipur with a simple mission-make sending
                         cargo, parcels, luggage and couriers across India easy, affordable and worry-free for every customer.</p>
                     <p>Today, we serve students, families, working professionals and small businesses across Jaipur,
                         delivering thousands of shipments to every major Indian city. Our team combines local Jaipur
@@ -119,7 +130,7 @@
                     <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-brand">
                         <x-icons.price class="w-5 h-5" />
                     </div>
-                    <h3 class="mt-4 font-semibold text-lg text-foreground mb-2">Flexible &amp; Affordable</h3>
+                    <h3 class="mt-4 font-semibold text-lg text-foreground mb-2">Flexible & Affordable</h3>
                     <p class="text-muted-foreground text-sm leading-relaxed">
                         Competitive rates, bulk discounts, and customized solutions for businesses and individuals.
                     </p>

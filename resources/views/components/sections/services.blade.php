@@ -6,7 +6,7 @@
         </div>
         <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">Our Services</h2>
         <p class="mt-3 text-base text-muted-foreground sm:text-lg">
-            From single documents to full household luggage — one trusted partner in Jaipur.
+            From single documents to full household luggage - one trusted partner in Jaipur.
         </p>
     </div>
     <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -27,7 +27,7 @@
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                    <span>Door-to-door pickup &amp; delivery</span>
+                    <span>Door-to-door pickup & delivery</span>
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
@@ -64,11 +64,11 @@
             <ul class="mt-4 space-y-2">
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                    <span>LTL &amp; FTL transport options</span>
+                    <span>LTL & FTL transport options</span>
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                    <span>Commercial &amp; personal cargo</span>
+                    <span>Commercial & personal cargo</span>
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
@@ -80,7 +80,7 @@
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                    <span>Doorstep loading &amp; unloading</span>
+                    <span>Doorstep loading & unloading</span>
                 </li>
                 <li class="flex items-start gap-2 text-sm text-muted-foreground">
                     <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>

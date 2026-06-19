@@ -1,5 +1,15 @@
 @extends('layouts.app')
 
+@push('meta')
+    <title>Logistics & Domestic Shipping Services in Jaipur | JM Courier</title>
+    <meta name="description" content="Discover our premium shipping services in Jaipur including express courier, domestic cargo, luggage shifting, and bulk parcel delivery. Fast pan-India delivery.">
+    <meta name="keywords" content="courier service jaipur, domestic cargo jaipur, luggage shipping jaipur, bulk parcel delivery, jm courier services">
+    <meta property="og:title" content="Logistics & Domestic Shipping Services in Jaipur | JM Courier">
+    <meta property="og:description" content="Discover our premium shipping services in Jaipur including express courier, domestic cargo, luggage shifting, and bulk parcel delivery. Fast pan-India delivery.">
+    <meta name="twitter:title" content="Logistics & Domestic Shipping Services in Jaipur | JM Courier">
+    <meta name="twitter:description" content="Discover our premium shipping services in Jaipur including express courier, domestic cargo, luggage shifting, and bulk parcel delivery. Fast pan-India delivery.">
+@endpush
+
 @section('content')
     <div class="bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
@@ -165,7 +175,7 @@
                     <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-brand">
                         <x-icons.price class="w-5 h-5" />
                     </div>
-                    <h3 class="mt-4 font-semibold text-lg text-foreground mb-2">Flexible &amp; Affordable</h3>
+                    <h3 class="mt-4 font-semibold text-lg text-foreground mb-2">Flexible & Affordable</h3>
                     <p class="text-muted-foreground text-sm leading-relaxed">
                         Competitive rates, bulk discounts, and customized solutions for businesses and individuals.
                     </p>

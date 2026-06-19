@@ -5,23 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
         data-precedence="default">
     <meta name="author" content="JM Courier">
     <meta name="theme-color" content="#0B4EA2">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India">
-    <meta name="twitter:description"
-        content="Door-to-door courier, cargo, luggage transport and parcel delivery from Jaipur to all India.">
     <meta property="og:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <meta name="twitter:image" content="{{ asset('images/jm-courier-delivery.png') }}">
-    <title>JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India</title>
-    <meta name="description"
-        content="Fast, secure and affordable courier, cargo, luggage and parcel delivery from Jaipur to all major cities across India. Door-to-door pickup, real-time updates.">
-    <meta property="og:title" content="JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India">
-    <meta property="og:description"
-        content="Door-to-door courier, cargo, luggage transport and parcel delivery from Jaipur to all India.">
+    <link rel="canonical" href="{{ url()->current() }}">
+    @stack('meta')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @stack('header-scripts')
@@ -101,8 +94,6 @@
                         <li><a class="hover:text-white" href="/">Home</a></li>
                         <li><a href="/services" class="hover:text-white">Services</a></li>
                         <li><a href="/about" class="hover:text-white">About Us</a></li>
-                        <li><a href="/coverage" class="hover:text-white">Coverage Areas</a></li>
-                        <li><a href="/pricing" class="hover:text-white">Pricing / Quote</a></li>
                         <li><a href="/contact" class="hover:text-white">Contact</a></li>
                     </ul>
                 </div>
@@ -113,8 +104,6 @@
                         <li><a href="{{ route('services.cargo') }}" class="hover:text-white">Cargo Services</a></li>
                         <li><a href="{{ route('services.luggage') }}" class="hover:text-white">Luggage Transport</a></li>
                         <li><a href="{{ route('services.parcel') }}" class="hover:text-white">Parcel Delivery</a></li>
-                        <li>Door-to-Door Pickup</li>
-                        <li>Pan-India Shipping</li>
                     </ul>
                 </div>
                 <div>
