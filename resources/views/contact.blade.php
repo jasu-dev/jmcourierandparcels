@@ -72,7 +72,7 @@
                                 class="absolute bottom-0 right-0 w-3 h-3 bg-[#25D366] border-2 border-[#075e54] rounded-full animate-pulse"></span>
                         </div>
                         <div>
-                            <h3 class="font-display font-medium">JM Couriers & Luggage Parcel</h3>
+                            <h3 class="font-display font-medium">JM Courier, Cargo &amp; Luggage</h3>
                             <p class="text-[10px] opacity-80 uppercase tracking-widest">Typically responds in minutes</p>
                         </div>
                     </div>
@@ -81,9 +81,9 @@
                         style="background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); background-repeat: repeat; background-size: 400px;">
                         <div
                             class="bg-white p-4 rounded-2xl rounded-tl-none shadow-sm max-w-[85%] text-sm relative border border-border/50">
-                            <p class="text-foreground/80 leading-relaxed font-medium mb-1">JM Couriers & Luggage Parcel</p>
+                            <p class="text-foreground/80 leading-relaxed font-medium mb-1">JM Courier, Cargo &amp; Luggage</p>
                             <p class="text-foreground/70 leading-relaxed">Hi there! 👋 <br>
-                                How can we help you with your courier and luggage parcel needs today?</p>
+                                How can we help you with your courier, cargo and luggage parcel needs today?</p>
                             <span class="text-[10px] text-muted-foreground mt-1 block text-right">Online</span>
                         </div>
                     </div>

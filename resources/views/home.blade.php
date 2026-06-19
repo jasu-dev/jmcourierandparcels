@@ -9,11 +9,11 @@
                     <x-icons.map-pin class="text-gold" /> Based in Jaipur · Pan-India
                 </div>
                 <h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-                    Courier, Luggage & Parcel <span class="text-gold">Delivery</span> from Jaipur to all India
+                    Courier, Cargo, Luggage &amp; Parcel <span class="text-gold">Delivery</span> from Jaipur to all India
                 </h1>
                 <p class="mt-4 max-w-xl text-white/85 sm:text-lg">
                     Fast pickups. Secure transit. On-time delivery. Trusted by hundreds of Jaipur customers
-                    for nationwide courier and luggage services.
+                    for nationwide courier, cargo and luggage services.
                 </p>
                 <div class="mt-7 flex flex-wrap gap-3">
                     <a href="/contact"
@@ -161,7 +161,7 @@
                             We deliver across all of India
                         </h2>
                         <p class="mt-3 text-base text-muted-foreground sm:text-lg">
-                            From Jaipur to every major metro, state capital and Tier-2/3 city - luggage, parcels and
+                            From Jaipur to every major metro, state capital and Tier-2/3 city - cargo, luggage, parcels and
                             couriers covered.
                         </p>
                     </div>

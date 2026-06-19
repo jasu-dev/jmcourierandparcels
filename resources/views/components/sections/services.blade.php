@@ -9,7 +9,7 @@
             From single documents to full household luggage — one trusted partner in Jaipur.
         </p>
     </div>
-    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div
             class="group rounded-2xl border border-border bg-card p-6 transition hover:-translate-y-1 hover:shadow-soft">
             <div
@@ -46,7 +46,48 @@
                     <span>Scheduled delivery options</span>
                 </li>
             </ul>
-            <a href="/services" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
+            <a href="{{ route('services.courier') }}" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
+                Learn more
+                <x-icons.arrow-right />
+            </a>
+        </div>
+        <div
+            class="group rounded-2xl border border-border bg-card p-6 transition hover:-translate-y-1 hover:shadow-soft">
+            <div
+                class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-gradient text-primary-foreground shadow-soft">
+                <x-icons.truck class="w-5 h-5" />
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-navy">Cargo Services</h3>
+            <p class="mt-2 text-sm text-muted-foreground">
+                Heavy cargo, commercial shipments and bulk logistics solutions across India.
+            </p>
+            <ul class="mt-4 space-y-2">
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>LTL &amp; FTL transport options</span>
+                </li>
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>Commercial &amp; personal cargo</span>
+                </li>
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>Wooden crate packaging available</span>
+                </li>
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>GPS-enabled tracking updates</span>
+                </li>
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>Doorstep loading &amp; unloading</span>
+                </li>
+                <li class="flex items-start gap-2 text-sm text-muted-foreground">
+                    <span class="inline-block w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                    <span>Cost-effective bulk rates</span>
+                </li>
+            </ul>
+            <a href="{{ route('services.cargo') }}" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
                 Learn more
                 <x-icons.arrow-right />
             </a>
@@ -87,7 +128,7 @@
                     <span>Affordable rates</span>
                 </li>
             </ul>
-            <a href="/services" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
+            <a href="{{ route('services.luggage') }}" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
                 Learn more
                 <x-icons.arrow-right />
             </a>
@@ -128,7 +169,7 @@
                     <span>Business-friendly solutions</span>
                 </li>
             </ul>
-            <a href="/services" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
+            <a href="{{ route('services.parcel') }}" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand">
                 Learn more
                 <x-icons.arrow-right />
             </a>

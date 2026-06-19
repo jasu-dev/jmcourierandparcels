@@ -3,7 +3,7 @@
     <div class="bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
             <h1 class="text-3xl font-extrabold sm:text-5xl">About JM Courier</h1>
-            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">Jaipur's trusted partner for courier, luggage and parcel
+            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">Jaipur's trusted partner for courier, cargo, luggage and parcel
                 delivery across India.</p>
         </div>
     </div>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="mt-5 space-y-4 text-foreground/85">
                     <p>JM Courier &amp; Luggage Parcel Service started in Jaipur with a simple mission — make sending
-                        parcels, luggage and couriers across India easy, affordable and worry-free for every customer.</p>
+                        cargo, parcels, luggage and couriers across India easy, affordable and worry-free for every customer.</p>
                     <p>Today, we serve students, families, working professionals and small businesses across Jaipur,
                         delivering thousands of shipments to every major Indian city. Our team combines local Jaipur
                         knowledge with a strong pan-India delivery network to ensure your parcel reaches safely and on time.

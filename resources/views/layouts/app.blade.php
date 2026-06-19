@@ -11,17 +11,17 @@
     <meta name="theme-color" content="#0B4EA2">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JM Courier And Luggage Parcel Service — Jaipur to All India">
+    <meta name="twitter:title" content="JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India">
     <meta name="twitter:description"
-        content="Door-to-door courier, luggage transport and parcel delivery from Jaipur to all India.">
+        content="Door-to-door courier, cargo, luggage transport and parcel delivery from Jaipur to all India.">
     <meta property="og:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <meta name="twitter:image" content="{{ asset('images/jm-courier-delivery.png') }}">
-    <title>JM Courier &amp; Luggage Parcel Service — Jaipur to All India</title>
+    <title>JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India</title>
     <meta name="description"
-        content="Fast, secure and affordable courier, luggage and parcel delivery from Jaipur to all major cities across India. Door-to-door pickup, real-time updates.">
-    <meta property="og:title" content="JM Courier &amp; Luggage Parcel Service — Jaipur to All India">
+        content="Fast, secure and affordable courier, cargo, luggage and parcel delivery from Jaipur to all major cities across India. Door-to-door pickup, real-time updates.">
+    <meta property="og:title" content="JM Courier, Cargo &amp; Luggage Parcel Service — Jaipur to All India">
     <meta property="og:description"
-        content="Door-to-door courier, luggage transport and parcel delivery from Jaipur to all India.">
+        content="Door-to-door courier, cargo, luggage transport and parcel delivery from Jaipur to all India.">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @stack('header-scripts')
@@ -37,8 +37,21 @@
                 </a>
                 <nav class="hidden items-center gap-1 lg:flex">
                     <x-nav-link route="home" label="Home"></x-nav-link>
-                    <x-nav-link route="services" label="Services"></x-nav-link>
                     <x-nav-link route="about" label="About"></x-nav-link>
+                    <div class="relative group" id="services-dropdown">
+                        <button class="inline-flex items-center gap-1 rounded-md px-3 py-2 text-sm font-semibold transition hover:bg-accent hover:text-navy text-foreground/80 focus:outline-none cursor-pointer">
+                            Services
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:rotate-180"><path d="m6 9 6 6 6-6"/></svg>
+                        </button>
+                        <div class="absolute left-0 mt-0.5 w-56 origin-top-left rounded-xl border border-border bg-card p-2 text-navy shadow-elevated opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <a href="{{ route('services') }}" class="block rounded-lg px-3 py-2 text-xs font-bold uppercase tracking-wider text-brand hover:bg-accent mb-1 transition">All Services</a>
+                            <hr class="border-border/60 my-1">
+                            <a href="{{ route('services.courier') }}" class="block rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:text-brand hover:bg-accent transition">Courier Services</a>
+                            <a href="{{ route('services.cargo') }}" class="block rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:text-brand hover:bg-accent transition">Cargo Services</a>
+                            <a href="{{ route('services.luggage') }}" class="block rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:text-brand hover:bg-accent transition">Luggage Transport</a>
+                            <a href="{{ route('services.parcel') }}" class="block rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:text-brand hover:bg-accent transition">Parcel Delivery</a>
+                        </div>
+                    </div>
                     <x-nav-link route="contact" label="Contact"></x-nav-link>
                 </nav>
                 <div class="hidden items-center gap-2 md:flex">
@@ -57,8 +70,8 @@
                         class="rounded-full bg-brand-gradient px-4 py-2 text-sm font-bold text-primary-foreground shadow-soft hover:brightness-110">Book
                         Pickup</a>
                 </div>
-                <button aria-label="Toggle menu"
-                    class="inline-flex items-center justify-center rounded-md border border-border p-2 lg:hidden">
+                <button id="open-mobile-menu" aria-label="Toggle menu"
+                    class="inline-flex items-center justify-center rounded-md border border-border p-2 lg:hidden cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
@@ -78,7 +91,7 @@
                     <img src="{{ asset('images/logo.png') }}" alt="JM Courier logo"
                         class="h-20 bg-background rounded p-1 object-contain">
                     <p class="mt-3 text-sm leading-relaxed text-white/70">
-                        Trusted Jaipur-based courier, luggage and parcel service delivering across India.
+                        Trusted Jaipur-based courier, cargo, luggage and parcel service delivering across India.
                         Fast pickups, secure transit, on-time delivery.
                     </p>
                 </div>
@@ -96,9 +109,10 @@
                 <div>
                     <div class="text-sm font-bold uppercase tracking-wide text-gold">Services</div>
                     <ul class="mt-3 space-y-2 text-sm text-white/80">
-                        <li>Courier Services</li>
-                        <li>Luggage Transport</li>
-                        <li>Parcel Delivery</li>
+                        <li><a href="{{ route('services.courier') }}" class="hover:text-white">Courier Services</a></li>
+                        <li><a href="{{ route('services.cargo') }}" class="hover:text-white">Cargo Services</a></li>
+                        <li><a href="{{ route('services.luggage') }}" class="hover:text-white">Luggage Transport</a></li>
+                        <li><a href="{{ route('services.parcel') }}" class="hover:text-white">Parcel Delivery</a></li>
                         <li>Door-to-Door Pickup</li>
                         <li>Pan-India Shipping</li>
                     </ul>
@@ -157,7 +171,7 @@
                 <div
                     class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-white/60 sm:flex-row sm:px-6">
                     <span>
-                        © JM Courier and Luggage Parcel Service. All rights reserved.
+                        © JM Courier, Cargo and Luggage Parcel Service. All rights reserved.
                     </span>
                     <span>
                         Designed and Developed by
@@ -173,6 +187,98 @@
             <span class="hidden sm:inline">WhatsApp</span>
         </a>
     </div>
+
+    <!-- Mobile Navigation Drawer Overlay -->
+    <div id="mobile-menu-backdrop" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300">
+        <div id="mobile-menu-drawer" class="fixed right-0 top-0 h-full w-full max-w-sm bg-card border-l border-border p-6 shadow-elevated translate-x-full transition-transform duration-300 ease-out flex flex-col justify-between">
+            <div>
+                <!-- Header -->
+                <div class="flex items-center justify-between">
+                    <img src="{{ asset('images/logo.png') }}" alt="JM Courier logo" class="h-12 object-contain bg-background rounded p-1">
+                    <button id="close-mobile-menu" aria-label="Close menu" class="rounded-full border border-border p-2 text-navy hover:bg-accent transition hover:rotate-90 cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                    </button>
+                </div>
+                
+                <!-- Navigation Links -->
+                <nav class="mt-8 flex flex-col gap-4">
+                    <a href="/" class="text-lg font-bold text-navy hover:text-brand transition py-1 border-b border-border/40">Home</a>
+                    
+                    <!-- Collapsible Services Section in Mobile Menu -->
+                    <div class="flex flex-col">
+                        <button id="mobile-services-toggle" class="flex w-full items-center justify-between text-lg font-bold text-navy py-1 border-b border-border/40 focus:outline-none cursor-pointer">
+                            <span>Services</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" id="mobile-services-chevron" class="transition-transform duration-200"><path d="m6 9 6 6 6-6"/></svg>
+                        </button>
+                        <div id="mobile-services-submenu" class="mt-2 pl-4 flex flex-col gap-3 max-h-0 overflow-hidden transition-all duration-300">
+                            <a href="{{ route('services') }}" class="text-sm font-bold text-brand uppercase tracking-wider">All Services</a>
+                            <a href="{{ route('services.courier') }}" class="text-sm font-semibold text-navy hover:text-brand transition">Courier Services</a>
+                            <a href="{{ route('services.cargo') }}" class="text-sm font-semibold text-navy hover:text-brand transition">Cargo Services</a>
+                            <a href="{{ route('services.luggage') }}" class="text-sm font-semibold text-navy hover:text-brand transition">Luggage Transport</a>
+                            <a href="{{ route('services.parcel') }}" class="text-sm font-semibold text-navy hover:text-brand transition">Parcel Delivery</a>
+                        </div>
+                    </div>
+                    
+                    <a href="/about" class="text-lg font-bold text-navy hover:text-brand transition py-1 border-b border-border/40">About Us</a>
+                    <a href="/contact" class="text-lg font-bold text-navy hover:text-brand transition py-1 border-b border-border/40">Contact</a>
+                </nav>
+            </div>
+            
+            <!-- CTA buttons at bottom of menu -->
+            <div class="mt-auto space-y-3 pt-6 border-t border-border">
+                <a href="tel:+919000000000" class="flex w-full items-center justify-center gap-2 rounded-full border border-border py-3 text-sm font-bold text-navy hover:bg-accent transition shadow-soft">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                    Call Hotline
+                </a>
+                <a href="/contact" class="flex w-full items-center justify-center rounded-full bg-brand-gradient py-3 text-sm font-bold text-primary-foreground shadow-soft hover:brightness-110 transition">
+                    Book Pickup
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const openBtn = document.getElementById('open-mobile-menu');
+            const closeBtn = document.getElementById('close-mobile-menu');
+            const backdrop = document.getElementById('mobile-menu-backdrop');
+            const drawer = document.getElementById('mobile-menu-drawer');
+            const submenuToggle = document.getElementById('mobile-services-toggle');
+            const submenu = document.getElementById('mobile-services-submenu');
+            const submenuChevron = document.getElementById('mobile-services-chevron');
+
+            function toggleMenu(show) {
+                if (show) {
+                    backdrop.classList.remove('opacity-0', 'pointer-events-none');
+                    backdrop.classList.add('opacity-100', 'pointer-events-auto');
+                    drawer.classList.remove('translate-x-full');
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    backdrop.classList.add('opacity-0', 'pointer-events-none');
+                    backdrop.classList.remove('opacity-100', 'pointer-events-auto');
+                    drawer.classList.add('translate-x-full');
+                    document.body.style.overflow = '';
+                }
+            }
+
+            openBtn?.addEventListener('click', () => toggleMenu(true));
+            closeBtn?.addEventListener('click', () => toggleMenu(false));
+            backdrop?.addEventListener('click', (e) => {
+                if (e.target === backdrop) toggleMenu(false);
+            });
+
+            submenuToggle?.addEventListener('click', () => {
+                const isOpen = submenu.style.maxHeight && submenu.style.maxHeight !== '0px';
+                if (isOpen) {
+                    submenu.style.maxHeight = '0px';
+                    submenuChevron.classList.remove('rotate-180');
+                } else {
+                    submenu.style.maxHeight = submenu.scrollHeight + 'px';
+                    submenuChevron.classList.add('rotate-180');
+                }
+            });
+        });
+    </script>
     @stack('footer-scripts')
 </body>
 

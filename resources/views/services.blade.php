@@ -4,7 +4,7 @@
     <div class="bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20">
             <h1 class="text-3xl font-extrabold sm:text-5xl">Our Services</h1>
-            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">One trusted Jaipur partner for couriers, luggage and parcels —
+            <p class="mt-3 max-w-2xl text-white/85 sm:text-lg">One trusted Jaipur partner for couriers, cargo, luggage and parcels —
                 anywhere in India.</p>
         </div>
     </div>
@@ -15,7 +15,7 @@
 
         <div>
             <h2 class="text-2xl font-extrabold text-navy sm:text-3xl">More we handle</h2>
-            <p class="mt-2 text-muted-foreground">Beyond our three core services, JM Courier also supports
+            <p class="mt-2 text-muted-foreground">Beyond our four core services, JM Courier also supports
                 specialised shipments out of Jaipur.</p>
         </div>
 
