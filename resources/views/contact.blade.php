@@ -22,7 +22,7 @@
     <section class="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 sm:py-20 sm:pb-10 ">
         <div class="grid gap-10 lg:grid-cols-2">
             <div class="space-y-6">
-                <a href="tel:+919000000000" class="block">
+                <a href="tel:+91{{ config('services.info.phone') }}" class="block">
                     <div
                         class="flex items-center gap-4 rounded-2xl border border-border bg-card p-4">
                         <div
@@ -31,11 +31,11 @@
                         </div>
                         <div class="min-w-0">
                             <div class="text-xs font-bold uppercase tracking-wide text-muted-foreground">Call Us</div>
-                            <div class="truncate font-semibold text-navy">+91 90000 00000</div>
+                            <div class="truncate font-semibold text-navy">+91 {{ config('services.info.phone') }}</div>
                         </div>
                     </div>
                 </a>
-                <a href="mailto:info@jmcourier.in" class="block">
+                <a href="mailto:{{ config('services.info.email') }}" class="block">
                     <div
                         class="flex items-center gap-4 rounded-2xl border border-border bg-card p-4">
                         <div
@@ -44,7 +44,7 @@
                         </div>
                         <div class="min-w-0">
                             <div class="text-xs font-bold uppercase tracking-wide text-muted-foreground">Email</div>
-                            <div class="truncate font-semibold text-navy">info@jmcourier.in</div>
+                            <div class="truncate font-semibold text-navy">{{ config('services.info.email') }}</div>
                         </div>
                     </div>
                 </a>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="min-w-0">
                         <div class="text-xs font-bold uppercase tracking-wide text-muted-foreground">Office</div>
-                        <div class="truncate font-semibold text-navy">Jaipur, Rajasthan, India</div>
+                        <div class="truncate font-semibold text-navy">{{ config('services.info.address') }}</div>
                     </div>
                 </div>
                 <div
@@ -117,12 +117,13 @@
 @push('footer-scripts')
 <script>
         function sendWhatsAppMessage() {
+            const number = @js(config('services.info.phone'));
             const messageBox = document.getElementById('wa-message');
             const message = messageBox.value;
             if (message.trim() === '') return;
 
             const encodedMessage = encodeURIComponent(message);
-            const whatsappUrl = `https://wa.me/917737972604?text=${encodedMessage}`;
+            const whatsappUrl = `https://wa.me/91${number}?text=${encodedMessage}`;
             window.open(whatsappUrl, '_blank');
             messageBox.value = '';
         }

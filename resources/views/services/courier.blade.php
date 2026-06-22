@@ -26,11 +26,11 @@
                 Perfect for urgent documents, corporate samples, and small packages.
             </p>
             <div class="mt-7 flex flex-wrap gap-3">
-                <a href="https://wa.me/919000000000?text=Hi%20JM%20Courier%2C%20I%20want%20to%20book%20a%20courier%20pickup%20from%20Jaipur."
+                <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20want%20to%20book%20a%20courier%20pickup%20from%20Jaipur."
                     class="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 font-bold text-white shadow-elevated hover:brightness-105 hover:-translate-y-0.5 transition">
                     <x-icons.whatsapp class="w-5 h-5" /> Book Express Pickup
                 </a>
-                <a href="tel:+919000000000"
+                <a href="tel:+91{{ config('services.info.phone') }}"
                     class="inline-flex items-center gap-2 rounded-full bg-danger px-6 py-3 font-bold text-white shadow-soft hover:brightness-110 hover:-translate-y-0.5 transition">
                     <x-icons.phone class="w-5 h-5" /> Call Now
                 </a>

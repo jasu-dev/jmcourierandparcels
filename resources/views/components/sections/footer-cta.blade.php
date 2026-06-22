@@ -10,14 +10,14 @@
                 </p>
             </div>
             <div class="flex flex-col sm:flex-row flex-wrap gap-3">
-                <a href="/pricing"
-                    class="inline-flex justify-center items-center gap-2 rounded-full bg-gold-gradient px-6 py-3 font-bold text-gold-foreground shadow-soft">
+                <a href="tel:+91{{ config('services.info.phone') }}"
+                    class="inline-flex justify-center items-center gap-2 rounded-full bg-white/10 px-6 py-3 font-bold ring-1 ring-white/30 backdrop-blur hover:bg-white/20">
                     <x-icons.phone class="w-4 h-4" />
                     Get Quote
                 </a>
-                <a href="https://wa.me/919000000000"
-                    class="inline-flex justify-center items-center gap-2 rounded-full bg-white/10 px-6 py-3 font-bold ring-1 ring-white/30 backdrop-blur hover:bg-white/20">
-                    <x-icons.whatsapp class="w-4 h-4" />
+                <a href="https://wa.me/91{{ config('services.info.phone') }}"
+                    class="inline-flex justify-center items-center gap-2 rounded-full bg-whatsapp px-4 py-3 font-bold text-white shadow-elevated hover:brightness-105">
+                    <x-icons.whatsapp class="w-5 h-5" />
                     WhatsApp
                 </a>
             </div>

@@ -26,29 +26,15 @@
                     for nationwide courier, cargo and luggage services.
                 </p>
                 <div class="mt-7 flex flex-wrap gap-3">
-                    <a href="/contact"
+                    <a href="https://wa.me/91{{ config('services.info.phone') }}"
                         class="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 font-bold text-white shadow-elevated hover:brightness-105">
                         <x-icons.whatsapp class="w-5 h-5" />
                         Book Pickup
                     </a>
-                    <a href="tel:+919000000000"
+                    <a href="tel:+91{{ config('services.info.phone') }}"
                         class="inline-flex items-center gap-2 rounded-full bg-danger px-6 py-3 font-bold text-white shadow-soft hover:brightness-110">
                         <x-icons.phone class="w-5 h-5" /> Call Now
                     </a>
-                </div>
-                <div class="mt-8 grid max-w-md grid-cols-3 gap-4 text-center">
-                    <div class="rounded-2xl bg-white/10 p-3 backdrop-blur">
-                        <div class="text-xl font-extrabold text-gold sm:text-2xl">10k+</div>
-                        <div class="text-[11px] uppercase tracking-wider text-white/70">Parcels Delivered</div>
-                    </div>
-                    <div class="rounded-2xl bg-white/10 p-3 backdrop-blur">
-                        <div class="text-xl font-extrabold text-gold sm:text-2xl">500+</div>
-                        <div class="text-[11px] uppercase tracking-wider text-white/70">Cities Covered</div>
-                    </div>
-                    <div class="rounded-2xl bg-white/10 p-3 backdrop-blur">
-                        <div class="text-xl font-extrabold text-gold sm:text-2xl">4.9★</div>
-                        <div class="text-[11px] uppercase tracking-wider text-white/70">Customer Rating</div>
-                    </div>
                 </div>
             </div>
             <div class="relative">
@@ -235,12 +221,12 @@
                         day from anywhere in Jaipur city.
                     </p>
                     <div class="mt-5 flex flex-col sm:flex-row flex-wrap gap-4">
-                        <a href="/contact"
+                        <a href="https://wa.me/91{{ config('services.info.phone') }}"
                             class="inline-flex justify-center items-center gap-2 rounded-full bg-whatsapp px-4 py-3 font-bold text-white shadow-elevated hover:brightness-105">
                             <x-icons.whatsapp class="w-5 h-5" />
                             Book Pickup
                         </a>
-                        <a href="tel:+919000000000"
+                        <a href="tel:+91{{ config('services.info.phone') }}"
                             class="inline-flex items-center justify-center gap-2 rounded-full bg-danger px-4 py-3 font-bold text-white shadow-soft hover:brightness-110">
                             <x-icons.phone class="w-5 h-5" /> Call Now
                         </a>
