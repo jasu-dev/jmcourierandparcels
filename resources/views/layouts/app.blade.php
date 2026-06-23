@@ -148,13 +148,23 @@
                 </div>
             </div>
             <div class="border-t border-white/10">
+                <div class="mx-auto max-w-7xl px-4 py-3 text-xs text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
+                    <span class="font-semibold text-gold">Local Areas:</span>
+                    <a href="{{ route('locations.mansarovar') }}" class="hover:text-white transition">Courier Services in Mansarovar</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.vaishalinagar') }}" class="hover:text-white transition">Courier Services in Vaishali Nagar</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.jhotwara') }}" class="hover:text-white transition">Courier Services in Jhotwara</a>
+                </div>
+            </div>
+            <div class="border-t border-white/10">
                 <div
                     class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-white/60 sm:flex-row sm:px-6">
                     <span>
-                        © JM Courier, Cargo and Luggage Parcel Service. All rights reserved.
+                        © JM Courier, Cargo and Luggage Parcel Service.
                     </span>
                     <span>
-                        Designed and Developed by
+                        Design & Developed by
                         <a href="https://tejaldigital.in" class="hover:text-white">Tejal Digital</a>
                     </span>
                 </div>
