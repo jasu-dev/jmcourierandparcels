@@ -167,6 +167,38 @@
                 </div>
             </div>
             <div class="border-t border-white/10">
+                <div class="mx-auto max-w-7xl px-4 py-3 text-xs text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
+                    <span class="font-semibold text-gold">Popular Routes:</span>
+                    <a href="{{ route('routes.delhi') }}" class="hover:text-white transition">Jaipur to Delhi Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.bangalore') }}" class="hover:text-white transition">Jaipur to Bangalore Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.gurugram') }}" class="hover:text-white transition">Jaipur to Gurugram Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.hyderabad') }}" class="hover:text-white transition">Jaipur to Hyderabad Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.kolkata') }}" class="hover:text-white transition">Jaipur to Kolkata Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.pune') }}" class="hover:text-white transition">Jaipur to Pune Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.mumbai') }}" class="hover:text-white transition">Jaipur to Mumbai Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.chennai') }}" class="hover:text-white transition">Jaipur to Chennai Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.ahmedabad') }}" class="hover:text-white transition">Jaipur to Ahmedabad Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.visakhapatnam') }}" class="hover:text-white transition">Jaipur to Visakhapatnam Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.ranchi') }}" class="hover:text-white transition">Jaipur to Ranchi Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.jodhpur') }}" class="hover:text-white transition">Jaipur to Jodhpur Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.chandigarh') }}" class="hover:text-white transition">Jaipur to Chandigarh Courier</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('routes.patna') }}" class="hover:text-white transition">Jaipur to Patna Courier</a>
+                </div>
+            </div>
+            <div class="border-t border-white/10">
                 <div
                     class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-white/60 sm:flex-row sm:px-6">
                     <span>

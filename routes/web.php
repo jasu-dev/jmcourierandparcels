@@ -23,3 +23,19 @@ Route::view('courier-services-sanganer-jaipur', 'locations.sanganer')->name('loc
 Route::view('courier-services-malviya-nagar-jaipur', 'locations.malviyanagar')->name('locations.malviyanagar');
 Route::view('courier-services-sitapura-jaipur', 'locations.sitapura')->name('locations.sitapura');
 Route::view('courier-services-pratap-nagar-jaipur', 'locations.pratapnagar')->name('locations.pratapnagar');
+
+// Jaipur to Domestic Routes
+Route::view('jaipur-to-delhi-courier-services', 'routes.delhi')->name('routes.delhi');
+Route::view('jaipur-to-bangalore-courier-services', 'routes.bangalore')->name('routes.bangalore');
+Route::view('jaipur-to-gurugram-courier-services', 'routes.gurugram')->name('routes.gurugram');
+Route::view('jaipur-to-hyderabad-courier-services', 'routes.hyderabad')->name('routes.hyderabad');
+Route::view('jaipur-to-kolkata-courier-services', 'routes.kolkata')->name('routes.kolkata');
+Route::view('jaipur-to-pune-courier-services', 'routes.pune')->name('routes.pune');
+Route::view('jaipur-to-mumbai-courier-services', 'routes.mumbai')->name('routes.mumbai');
+Route::view('jaipur-to-chennai-courier-services', 'routes.chennai')->name('routes.chennai');
+Route::view('jaipur-to-ahmedabad-courier-services', 'routes.ahmedabad')->name('routes.ahmedabad');
+Route::view('jaipur-to-visakhapatnam-courier-services', 'routes.visakhapatnam')->name('routes.visakhapatnam');
+Route::view('jaipur-to-ranchi-courier-services', 'routes.ranchi')->name('routes.ranchi');
+Route::view('jaipur-to-jodhpur-courier-services', 'routes.jodhpur')->name('routes.jodhpur');
+Route::view('jaipur-to-chandigarh-courier-services', 'routes.chandigarh')->name('routes.chandigarh');
+Route::view('jaipur-to-patna-courier-services', 'routes.patna')->name('routes.patna');
