@@ -145,7 +145,7 @@
                 </div>
             </div>
             <div class="border-t border-white/10">
-                <div class="mx-auto max-w-7xl px-4 py-3 text-xs text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
+                <div class="mx-auto max-w-7xl px-4 py-3 text-sm text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
                     <span class="font-semibold text-gold">Local Areas:</span>
                     <a href="{{ route('locations.mansarovar') }}" class="hover:text-white transition">Courier Services in Mansarovar</a>
                     <span class="text-white/20">|</span>
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="border-t border-white/10">
-                <div class="mx-auto max-w-7xl px-4 py-3 text-xs text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
+                <div class="mx-auto max-w-7xl px-4 py-3 text-sm text-white/50 sm:px-6 flex flex-wrap items-center gap-x-2 gap-y-1">
                     <span class="font-semibold text-gold">Popular Routes:</span>
                     <a href="{{ route('routes.delhi') }}" class="hover:text-white transition">Jaipur to Delhi Courier</a>
                     <span class="text-white/20">|</span>
