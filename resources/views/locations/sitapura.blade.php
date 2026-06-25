@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
 @push('meta')
-    <title>Best Courier & Cargo Services in Mansarovar Jaipur | JM Courier</title>
+    <title>Best Courier & Cargo Services in Sitapura Jaipur | JM Courier</title>
     <meta name="description"
-        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Mansarovar, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
+        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Sitapura, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
     <meta name="keywords"
-        content="courier service mansarovar jaipur, cargo services mansarovar, luggage transport mansarovar, parcel delivery mansarovar, express delivery jaipur mansarovar, mansarovar courier collection, document courier mansarovar">
-    <meta property="og:title" content="Best Courier & Cargo Services in Mansarovar Jaipur | JM Courier">
+        content="courier service sitapura jaipur, cargo services sitapura, luggage transport sitapura, parcel delivery sitapura, express delivery jaipur sitapura, sitapura courier collection, document courier sitapura">
+    <meta property="og:title" content="Best Courier & Cargo Services in Sitapura Jaipur | JM Courier">
     <meta property="og:description"
-        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Mansarovar, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
-    <meta name="twitter:title" content="Best Courier & Cargo Services in Mansarovar Jaipur | JM Courier">
+        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Sitapura, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
+    <meta name="twitter:title" content="Best Courier & Cargo Services in Sitapura Jaipur | JM Courier">
     <meta name="twitter:description"
-        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Mansarovar, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
+        content="Reliable & fast domestic courier, parcel delivery, luggage transport, and cargo services in Sitapura, Jaipur. Same-day free doorstep pickup & express shipping to all India.">
 @endpush
 
 @section('content')
@@ -20,18 +20,17 @@
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
             <div
                 class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-wider backdrop-blur animate-pulse">
-                <x-icons.map-pin class="text-gold" /> Serving Mansarovar, Jaipur
+                <x-icons.map-pin class="text-gold" /> Serving Sitapura, Jaipur
             </div>
             <h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-                Courier & Cargo Services in <span class="text-gold">Mansarovar, Jaipur</span>
+                Courier & Cargo Services in <span class="text-gold">Sitapura, Jaipur</span>
             </h1>
             <p class="mt-4 text-white/85 sm:text-lg max-w-3xl">
-                Send documents, parcels, student luggage, or commercial cargo from Mansarovar to any destination across
-                India.
-                Enjoy hassle-free door-to-door delivery, free same-day pickup, and tracking at highly competitive rates.
+                Send industrial cargo, business documents, student luggage, or parcel boxes from Sitapura to any destination across
+                India. Enjoy hassle-free door-to-door delivery, free same-day pickup, and tracking at highly competitive rates.
             </p>
             <div class="mt-7 flex flex-wrap gap-3">
-                <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20want%20to%20book%20a%20pickup%20from%20Mansarovar%20Jaipur."
+                <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20want%20to%20book%20a%20pickup%20from%20Sitapura%20Jaipur."
                     class="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 font-bold text-white shadow-elevated hover:brightness-105 hover:-translate-y-0.5 transition">
                     <x-icons.whatsapp class="w-5 h-5" /> Book Express Pickup
                 </a>
@@ -52,25 +51,21 @@
                     Local Logistics Expert
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
-                    Reliable Door-to-Door Courier Collection in Mansarovar
+                    Reliable Door-to-Door Courier Collection in Sitapura
                 </h2>
                 <div class="space-y-4 text-foreground/85 text-sm sm:text-base leading-relaxed">
                     <p>
-                        As Jaipur's largest residential and institutional hub, Mansarovar has unique and fast-paced shipping
-                        needs.
-                        Whether you are a student relocation candidate shifting luggage from a PG near VT Road, a corporate
-                        office near Mansarovar Plaza sending business proposals, or an exporter shipping heavy cargo, <b>JM
-                            Courier</b> is here to help.
+                        Sitapura represents Jaipur's primary industrial and educational engine, housing massive RIICO zones, Export Promotion Industrial Parks (EPIP), IT clusters, and prominent colleges/hospitals.
+                        Whether you are a manufacturing unit in Sitapura Industrial Area shipping bulk commercial consignments, an exporter in EPIP dispatching sample packages, a medical professional near Mahatma Gandhi Hospital, or a student relocation candidate booking baggage transport, <b>JM Courier</b> is here to help.
                     </p>
                     <p>
-                        We offer a comprehensive suite of logistics services tailored for Mansarovar. Our expert team
+                        We offer a comprehensive suite of logistics services tailored for Sitapura. Our expert team
                         ensures that your packages are picked up right from your doorstep and dispatched immediately. We
-                        handle everything from single urgent document envelopes to massive commercial consignments with
+                        handle everything from single urgent document envelopes to massive commercial cargo with
                         equal care and efficiency.
                     </p>
                     <p>
-                        With regular routes spanning VT Road, Shipra Path, Patel Marg, Madhyam Marg, SFS, and all sectors
-                        from 1 to 12, our field executives can reach your location within minutes of booking.
+                        With regular routes spanning Sitapura Industrial Area, EPIP Zones 1-4, Tonk Road Sitapura, JECRC Campus, Mahatma Gandhi Hospital Road, Ranasinghpura, and phases 1 to 3, our field executives can reach your location within minutes of booking.
                     </p>
                 </div>
                 <div class="flex flex-wrap gap-3 pt-2">
@@ -80,7 +75,7 @@
                     </div>
                     <div
                         class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
-                        <x-icons.circle-check class="text-brand w-4 h-4 shrink-0" /> Student Discount Available
+                        <x-icons.circle-check class="text-brand w-4 h-4 shrink-0" /> Bulk Cargo Discount
                     </div>
                     <div
                         class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
@@ -88,8 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center">
-                <img src="{{ asset('images/cities/mansarovar.png') }}" alt="JM Courier Mansarovar">
+            <div class="flex items-center justify-center">
+                <img src="{{ asset('images/cities/sitapura.png') }}" alt="JM Courier Sitapura" class="rounded-3xl shadow-soft border border-border max-w-full h-auto">
             </div>
         </div>
     </section>
@@ -98,14 +93,14 @@
     <section class="mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 sm:pb-20">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="overflow-hidden rounded-3xl border border-border bg-card shadow-soft aspect-[3/2]">
-                <img src="{{ asset('images/cities/mansarovar_1.png') }}" 
-                     alt="Mansarovar Jaipur Local Landmark" 
+                <img src="{{ asset('images/cities/sitapura_1.png') }}" 
+                     alt="Sitapura Jaipur Local Landmark" 
                      class="w-full h-full object-cover hover:scale-105 transition duration-500"
                      loading="lazy">
             </div>
             <div class="overflow-hidden rounded-3xl border border-border bg-card shadow-soft aspect-[3/2]">
-                <img src="{{ asset('images/cities/mansarovar_2.png') }}" 
-                     alt="Mansarovar Jaipur Local Vibe" 
+                <img src="{{ asset('images/cities/sitapura_2.png') }}" 
+                     alt="Sitapura Jaipur Local Vibe" 
                      class="w-full h-full object-cover hover:scale-105 transition duration-500"
                      loading="lazy">
             </div>
@@ -120,7 +115,7 @@
                 Our Specialized Services
             </div>
             <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
-                Premium Logistics & Shifting Services in Mansarovar
+                Premium Logistics & Shifting Services in Sitapura
             </h2>
             <p class="mt-3 text-muted-foreground text-sm sm:text-base max-w-2xl mx-auto">
                 We provide specialized, secure, and fast transport solutions. Review our core services below, each optimized
@@ -141,15 +136,15 @@
                         <h3 class="font-extrabold text-navy text-xl">Domestic Courier Services</h3>
                     </div>
                     <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
-                        Are you looking for reliable <b>door-to-door express courier collection in Mansarovar</b>? We
-                        specialize in quick dispatch for time-sensitive legal agreements, academic transcripts, corporate
-                        contracts, and retail packages. Our priority air routes guarantee delivery to central business areas
+                        Are you looking for reliable <b>door-to-door express courier collection in Sitapura</b>? We
+                        specialize in quick dispatch for time-sensitive export papers, corporate documents, laboratory reports,
+                        and commercial packages. Our priority air routes guarantee delivery to central business areas
                         within 24 to 48 hours.
                     </p>
                     <ul class="mt-4 space-y-2 text-xs sm:text-sm text-muted-foreground">
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
-                            Same-day urgent document courier services in Mansarovar Jaipur.
+                            Same-day urgent document courier services in Sitapura Jaipur.
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
@@ -181,15 +176,15 @@
                         <h3 class="font-extrabold text-navy text-xl">Commercial Cargo Solutions</h3>
                     </div>
                     <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
-                        Optimize your business distribution with high-quality <b>heavy machinery & retail goods transport in
-                            Mansarovar Jaipur</b>. We support manufacturers, local retailers, and wholesalers with
+                        Optimize your business distribution with high-quality <b>heavy machinery, electronics & raw goods transport in
+                            Sitapura Jaipur</b>. We support manufacturers, exporters, and developers with
                         Part-Truck-Load (LTL) and Full-Truck-Load (FTL) commercial transport services, managing secure
                         transit and document clearance.
                     </p>
                     <ul class="mt-4 space-y-2 text-xs sm:text-sm text-muted-foreground">
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
-                            Bulk commercial cargo and parcel booking in Mansarovar.
+                            Bulk commercial cargo and parcel booking in Sitapura.
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
@@ -218,17 +213,17 @@
                             class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
                             <x-icons.briefcase class="w-6 h-6" />
                         </div>
-                        <h3 class="font-extrabold text-navy text-xl">Student Luggage Moving</h3>
+                        <h3 class="font-extrabold text-navy text-xl">Student & Employee Luggage Moving</h3>
                     </div>
                     <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
-                        Relocating out of a hostel or rental room? Use our dedicated <b>hostel and PG baggage transport in
-                            Mansarovar</b>. We help students send luggage, textbooks, backpacks, study furniture, and
+                        Relocating out of a hostel or staff quarter? Use our dedicated <b>hostel and baggage transport in
+                            Sitapura</b>. We help students and professionals send luggage, textbooks, backpacks, study furniture, and
                         two-wheelers to all states in India. We supply sturdy cartons and tape directly to your location.
                     </p>
                     <ul class="mt-4 space-y-2 text-xs sm:text-sm text-muted-foreground">
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
-                            Cheap book and clothes courier in Mansarovar for college graduates.
+                            Cheap book and clothes courier in Sitapura for graduates.
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
@@ -236,7 +231,7 @@
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
-                            Discounted prices with free packaging support at hostels/PGs.
+                            Discounted prices with free packaging support at hostels/quarters.
                         </li>
                     </ul>
                 </div>
@@ -260,14 +255,14 @@
                         <h3 class="font-extrabold text-navy text-xl">Parcel Delivery & Packing</h3>
                     </div>
                     <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
-                        Send household boxes, gifts, festive sweet parcels, and commercial sample cartons with our <b>bulk
-                            packing and parcel delivery in Jaipur Mansarovar</b>. We carry out high-quality bubble wrapping
+                        Send commercial samples, industrial spare parts, household boxes, and gift packages with our <b>bulk
+                            packing and parcel delivery in Jaipur Sitapura</b>. We carry out high-quality bubble wrapping
                         on-site, label every box with a unique tracking code, and provide status updates on WhatsApp.
                     </p>
                     <ul class="mt-4 space-y-2 text-xs sm:text-sm text-muted-foreground">
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
-                            Gift and box courier services in Mansarovar for families and merchants.
+                            Gift and commercial box courier services in Sitapura for companies and homes.
                         </li>
                         <li class="flex items-center gap-2">
                             <span class="h-1.5 w-1.5 rounded-full bg-brand"></span>
@@ -298,28 +293,28 @@
                     Coverage Areas
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
-                    Same-Day Pickup Across Mansarovar
+                    Same-Day Pickup Across Sitapura
                 </h2>
                 <p class="mt-2 text-muted-foreground text-sm">
-                    We offer rapid pickup services within 60 minutes in the following localities inside Mansarovar:
+                    We offer rapid pickup services within 60 minutes in the following localities inside Sitapura:
                 </p>
             </div>
 
             <div class="mt-10 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 @php
                     $areas = [
-                        'VT Road',
-                        'Shipra Path',
-                        'Madhyam Marg',
-                        'Patel Marg',
-                        'Varun Path',
-                        'Kiran Path',
-                        'Kaveri Path',
-                        'SFS Area',
-                        'Mansarovar Sectors 1-12',
-                        'New Aatish Market',
-                        'Mansarovar Metro Station',
-                        'Galaxy Circle',
+                        'Sitapura Industrial Area',
+                        'RIICO Industrial Area',
+                        'EPIP Zone 1',
+                        'EPIP Zone 2',
+                        'EPIP Zone 3',
+                        'EPIP Zone 4',
+                        'Mahatma Gandhi Hospital Road',
+                        'JECRC Campus Area',
+                        'Tonk Road Sitapura',
+                        'Ranasinghpura',
+                        'Sitapura Phase 1',
+                        'Sitapura Phase 2',
                     ];
                 @endphp
                 @foreach ($areas as $area)
@@ -340,9 +335,9 @@
     <section class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
         <div class="grid gap-12 lg:grid-cols-2 items-center">
             <div>
-                <h3 class="text-2xl font-extrabold text-navy sm:text-3xl">Popular Routes from Mansarovar</h3>
+                <h3 class="text-2xl font-extrabold text-navy sm:text-3xl">Popular Routes from Sitapura</h3>
                 <p class="mt-2 text-muted-foreground text-sm">
-                    We connect Mansarovar directly to major economic and educational zones with standard and express
+                    We connect Sitapura directly to major industrial, manufacturing, and business centers with standard and express
                     options.
                 </p>
 
@@ -385,16 +380,14 @@
             <div class="rounded-3xl bg-brand-gradient p-8 text-white shadow-elevated relative overflow-hidden">
                 <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gold/30 blur-xl"></div>
                 <x-icons.support class="w-16 h-16 text-gold" />
-                <h3 class="mt-4 text-2xl font-extrabold">Student Relocation Specials</h3>
+                <h3 class="mt-4 text-2xl font-extrabold">Commercial & Industrial Logistics</h3>
                 <p class="mt-2 text-white/85 text-sm sm:text-base leading-relaxed">
-                    Hostelers and PG residents in Mansarovar get exclusive pocket-friendly prices for moving study files,
-                    computers, bags, and bicycles.
-                    We provide free carton boxes and high-quality bubble wrapping at your location.
+                    Factories, export houses, and corporations in Sitapura get custom logistics pricing, secure parcel loading, and full assistance with documentation such as e-way bills.
                 </p>
                 <div class="mt-6 flex flex-wrap gap-3">
-                    <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20am%20a%20student%20in%20Mansarovar%20Jaipur%20and%20want%20to%20query%20luggage%20rates."
+                    <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20have%20an%20industrial%20unit%20in%20Sitapura%20Jaipur%20and%20want%20to%20query%20cargo%20rates."
                         class="inline-flex justify-center items-center gap-2 rounded-full bg-whatsapp px-4 py-2.5 font-bold text-white shadow-elevated text-sm hover:brightness-105 transition">
-                        <x-icons.whatsapp class="w-4 h-4" /> Student Rates
+                        <x-icons.whatsapp class="w-4 h-4" /> Commercial Rates
                     </a>
                     <a href="tel:+91{{ config('services.info.phone') }}"
                         class="inline-flex items-center justify-center gap-2 rounded-full bg-danger px-4 py-2.5 font-bold text-white shadow-soft text-sm hover:brightness-110 transition">
@@ -414,7 +407,7 @@
                     Benefits
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
-                    Why Choose JM Courier in Mansarovar
+                    Why Choose JM Courier in Sitapura
                 </h2>
             </div>
 
@@ -425,7 +418,7 @@
                     </div>
                     <h3 class="mt-4 font-bold text-navy">Same-Day Pickup</h3>
                     <p class="mt-1 text-sm text-muted-foreground">
-                        Book your service before 5:00 PM and we will pick it up the same day from your Mansarovar address.
+                        Book your service before 5:00 PM and we will pick it up the same day from your Sitapura address.
                     </p>
                 </div>
                 <div class="rounded-2xl border border-border bg-card p-6 transition hover:shadow-soft">
@@ -466,22 +459,21 @@
                 class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
                 FAQ
             </div>
-            <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">Mansarovar Service FAQs</h2>
+            <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">Sitapura Service FAQs</h2>
         </div>
 
         <div class="mx-auto mt-8 max-w-3xl space-y-2 overflow-hidden px-4">
             <div class="faq-item rounded-2xl border border-border bg-card group">
                 <button
                     class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
-                    <span>Do you offer home pickup in Mansarovar, and is it free?</span>
+                    <span>Do you offer home pickup in Sitapura, and is it free?</span>
                     <x-icons.plus
                         class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
                 </button>
                 <div
                     class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
                     <p class="px-5 pb-5 text-sm text-muted-foreground">
-                        Yes! We provide 100% free doorstep collection anywhere in Mansarovar (including VT Road, Shipra
-                        Path, Sectors 1-12, etc.) for all bookings. There are no additional charges for pickup.
+                        Yes! We provide 100% free doorstep collection anywhere in Sitapura (including RIICO areas, EPIP zones, Mahatma Gandhi Hospital area, JECRC area, etc.) for all bookings. There are no additional charges for pickup.
                     </p>
                 </div>
             </div>
@@ -489,15 +481,14 @@
             <div class="faq-item rounded-2xl border border-border bg-card group">
                 <button
                     class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
-                    <span>What are the office hours for parcel booking?</span>
+                    <span>Do you handle shipping documentation like e-way bills?</span>
                     <x-icons.plus
                         class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
                 </button>
                 <div
                     class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
                     <p class="px-5 pb-5 text-sm text-muted-foreground">
-                        We accept booking requests 24/7 on WhatsApp and phone. Our physical collection services run from
-                        9:00 AM to 8:00 PM every day of the week.
+                        Yes, we assist our corporate and manufacturing partners in Sitapura with e-way bill generation, commercial invoice processing, and transit insurance for shipping logistics.
                     </p>
                 </div>
             </div>
@@ -513,8 +504,7 @@
                     class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
                     <p class="px-5 pb-5 text-sm text-muted-foreground">
                         Yes, our team carries high-quality packaging materials including bubble wrap, tape, and boxes. We
-                        can pack your household items or baggage at your location to ensure they are fully protected during
-                        transit.
+                        can pack your household items or baggage at your location to ensure they are fully protected during transit.
                     </p>
                 </div>
             </div>

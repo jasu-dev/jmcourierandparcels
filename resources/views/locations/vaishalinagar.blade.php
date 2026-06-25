@@ -87,6 +87,24 @@
         </div>
     </section>
 
+    <!-- Local Landmark Gallery -->
+    <section class="mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 sm:pb-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="overflow-hidden rounded-3xl border border-border bg-card shadow-soft aspect-[3/2]">
+                <img src="{{ asset('images/cities/vaishali_nagar_1.png') }}" 
+                     alt="Vaishali Nagar Jaipur Local Landmark" 
+                     class="w-full h-full object-cover hover:scale-105 transition duration-500"
+                     loading="lazy">
+            </div>
+            <div class="overflow-hidden rounded-3xl border border-border bg-card shadow-soft aspect-[3/2]">
+                <img src="{{ asset('images/cities/vaishali_nagar_2.png') }}" 
+                     alt="Vaishali Nagar Jaipur Local Vibe" 
+                     class="w-full h-full object-cover hover:scale-105 transition duration-500"
+                     loading="lazy">
+            </div>
+        </div>
+    </section>
+
     <!-- Services Showcase Section -->
     <section class="mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 sm:pb-20">
         <div class="mx-auto text-center max-w-3xl mb-12">

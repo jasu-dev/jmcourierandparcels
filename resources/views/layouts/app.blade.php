@@ -4,9 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-        data-precedence="default">
     <meta name="author" content="JM Courier">
     <meta name="theme-color" content="#0B4EA2">
     <meta property="og:type" content="website">
@@ -15,8 +12,8 @@
     <meta name="twitter:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <link rel="canonical" href="{{ url()->current() }}">
     @stack('meta')
+    @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-
     @stack('header-scripts')
 </head>
 
@@ -155,6 +152,18 @@
                     <a href="{{ route('locations.vaishalinagar') }}" class="hover:text-white transition">Courier Services in Vaishali Nagar</a>
                     <span class="text-white/20">|</span>
                     <a href="{{ route('locations.jhotwara') }}" class="hover:text-white transition">Courier Services in Jhotwara</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.jagatpura') }}" class="hover:text-white transition">Courier Services in Jagatpura</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.banipark') }}" class="hover:text-white transition">Courier Services in Bani Park</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.sanganer') }}" class="hover:text-white transition">Courier Services in Sanganer</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.malviyanagar') }}" class="hover:text-white transition">Courier Services in Malviya Nagar</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.sitapura') }}" class="hover:text-white transition">Courier Services in Sitapura</a>
+                    <span class="text-white/20">|</span>
+                    <a href="{{ route('locations.pratapnagar') }}" class="hover:text-white transition">Courier Services in Pratap Nagar</a>
                 </div>
             </div>
             <div class="border-t border-white/10">

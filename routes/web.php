@@ -16,3 +16,10 @@ Route::view('services/parcel-delivery-jaipur', 'services.parcel')->name('service
 Route::view('courier-services-mansarovar-jaipur', 'locations.mansarovar')->name('locations.mansarovar');
 Route::view('courier-services-vaishali-nagar-jaipur', 'locations.vaishalinagar')->name('locations.vaishalinagar');
 Route::view('courier-services-jhotwara-jaipur', 'locations.jhotwara')->name('locations.jhotwara');
+
+Route::view('courier-services-jagatpura-jaipur', 'locations.jagatpura')->name('locations.jagatpura');
+Route::view('courier-services-bani-park-jaipur', 'locations.banipark')->name('locations.banipark');
+Route::view('courier-services-sanganer-jaipur', 'locations.sanganer')->name('locations.sanganer');
+Route::view('courier-services-malviya-nagar-jaipur', 'locations.malviyanagar')->name('locations.malviyanagar');
+Route::view('courier-services-sitapura-jaipur', 'locations.sitapura')->name('locations.sitapura');
+Route::view('courier-services-pratap-nagar-jaipur', 'locations.pratapnagar')->name('locations.pratapnagar');
