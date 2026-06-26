@@ -145,6 +145,25 @@
                         class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
             </div>
+            <div class="group relative overflow-hidden rounded-2xl border border-border bg-card">
+                <div class="relative h-[220px] w-full overflow-hidden rounded-xl">
+                    <img src="{{ asset('images/1.jpeg') }}" alt="24/7 WhatsApp Support"
+                        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-2xl border border-border bg-card">
+                <div class="relative h-[220px] w-full overflow-hidden rounded-xl">
+                    <img src="{{ asset('images/2.jpeg') }}" alt="24/7 WhatsApp Support"
+                        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+            </div>
+            <div class="group relative overflow-hidden rounded-2xl border border-border bg-card">
+                <div class="relative h-[220px] w-full overflow-hidden rounded-xl">
+                    <img src="{{ asset('images/3.jpeg') }}" alt="24/7 WhatsApp Support"
+                        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+            </div>
+
         </div>
     </section>
 

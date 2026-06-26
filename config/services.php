@@ -16,7 +16,7 @@ return [
     'info' => [
         'phone' => env('INFO_PHONE', '8529236359'),
         'email' => env('INFO_EMAIL', 'Jmcurrierandluggage@gmail.com'),
-        'address' => env('INFO_ADDRESS', '68/314, Gulmohar Enclave Rd, Tirupati Balaji Nagar, Sanganer, Pratap Nagar, Jaipur, Rajasthan 302033'),
+        'address' => env('INFO_ADDRESS', '105, Chatrapati Marg, Sector 122, Hans Vihar, Sector 105, Mansarovar, Jaipur, Rajasthan 302020'),
     ],
 
     'postmark' => [
