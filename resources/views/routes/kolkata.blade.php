@@ -2,26 +2,32 @@
 
 @push('meta')
     <title>Jaipur to Kolkata Courier Service | Fast Cargo Shifting</title>
-    <meta name="description" content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
-    <meta name="keywords" content="jaipur to kolkata courier service, courier from jaipur to kolkata, luggage shifting jaipur to kolkata, cargo service jaipur to kolkata, parcel delivery jaipur to kolkata, door to door courier jaipur to kolkata">
+    <meta name="description"
+        content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
+    <meta name="keywords"
+        content="jaipur to kolkata courier service, courier from jaipur to kolkata, luggage shifting jaipur to kolkata, cargo service jaipur to kolkata, parcel delivery jaipur to kolkata, door to door courier jaipur to kolkata">
     <meta property="og:title" content="Jaipur to Kolkata Courier Service | Fast Cargo Shifting">
-    <meta property="og:description" content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
+    <meta property="og:description"
+        content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
     <meta name="twitter:title" content="Jaipur to Kolkata Courier Service | Fast Cargo Shifting">
-    <meta name="twitter:description" content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
+    <meta name="twitter:description"
+        content="Affordable Jaipur to Kolkata courier, parcel delivery, & luggage transport services. Safe doorstep pickup, quick air shipping, and live transit updates.">
 @endpush
 
 @section('content')
     <!-- Hero Section -->
     <section class="relative overflow-hidden bg-hero-gradient text-white">
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
-            <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-wider backdrop-blur animate-pulse">
+            <div
+                class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-wider backdrop-blur animate-pulse">
                 <x-icons.map-pin class="text-gold" /> Serving East India Corridor
             </div>
             <h1 class="mt-4 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
                 Jaipur to Kolkata <span class="text-gold">Courier & Cargo</span>
             </h1>
             <p class="mt-4 text-white/85 sm:text-lg max-w-3xl">
-                Need to ship household items, documents, commercial garments, or heavy machinery from Jaipur to Kolkata? We offer quick, secure door-to-door shipping solutions at highly reasonable rates.
+                Need to ship household items, documents, commercial garments, or heavy machinery from Jaipur to Kolkata? We
+                offer quick, secure door-to-door shipping solutions at highly reasonable rates.
             </p>
             <div class="mt-7 flex flex-wrap gap-3">
                 <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20want%20to%20book%20a%20pickup%20from%20Jaipur%20to%20Kolkata."
@@ -40,7 +46,8 @@
     <section class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div class="space-y-6">
-                <div class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
+                <div
+                    class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
                     East India Connect
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
@@ -48,23 +55,35 @@
                 </h2>
                 <div class="space-y-4 text-foreground/85 text-sm sm:text-base leading-relaxed">
                     <p>
-                        Kolkata, the cultural capital of India and the gateway to East India, shares deep trading ties with Rajasthan. From textile merchants shipping famous Jaipuri fabrics to Burrabazar markets, to IT professionals relocating to Salt Lake Sector V and Newtown, the flow of goods between Jaipur and Kolkata remains exceptionally high.
+                        Kolkata, the cultural capital of India and the gateway to East India, shares deep trading ties with
+                        Rajasthan. From textile merchants shipping famous Jaipuri fabrics to Burrabazar markets, to IT
+                        professionals relocating to Salt Lake Sector V and Newtown, the flow of goods between Jaipur and
+                        Kolkata remains exceptionally high.
                     </p>
                     <p>
-                        At <strong>JM Courier</strong>, we facilitate this trade and relocation corridor by offering high-speed <strong>Jaipur to Kolkata courier services</strong>. Our service includes free doorstep collection from all areas in Jaipur (Mansarovar, Vaishali Nagar, Jhotwara, Jagatpura, Malviya Nagar, Bani Park, Sanganer, Sitapura, Pratap Nagar) and direct distribution to West Bengal.
+                        At <strong>JM Courier</strong>, we facilitate this trade and relocation corridor by offering
+                        high-speed <strong>Jaipur to Kolkata courier services</strong>. Our service includes free doorstep
+                        collection from all areas in Jaipur (Mansarovar, Vaishali Nagar, Jhotwara, Jagatpura, Malviya Nagar,
+                        Bani Park, Sanganer, Sitapura, Pratap Nagar) and direct distribution to West Bengal.
                     </p>
                     <p>
-                        Our delivery network covers Kolkata's commercial centers (Burrabazar, Park Street, Howrah), residential localities (Tollygunge, Alipore, Gariahat), and developing corporate sectors (Salt Lake, Newtown). We utilize priority air freight from Jaipur Airport to Netaji Subhash Chandra Bose International Airport to ensure delivery within 1 to 2 days.
+                        Our delivery network covers Kolkata's commercial centers (Burrabazar, Park Street, Howrah),
+                        residential localities (Tollygunge, Alipore, Gariahat), and developing corporate sectors (Salt Lake,
+                        Newtown). We utilize priority air freight from Jaipur Airport to Netaji Subhash Chandra Bose
+                        International Airport to ensure delivery within 1 to 2 days.
                     </p>
                 </div>
                 <div class="flex flex-wrap gap-3 pt-2">
-                    <div class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
+                    <div
+                        class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
                         <x-icons.circle-check class="text-brand w-4 h-4 shrink-0" /> Free Doorstep Collection
                     </div>
-                    <div class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
+                    <div
+                        class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
                         <x-icons.circle-check class="text-brand w-4 h-4 shrink-0" /> Air Cargo (1-2 Days)
                     </div>
-                    <div class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
+                    <div
+                        class="flex items-center gap-2 rounded-xl border border-border bg-card p-3 font-semibold text-navy text-xs">
                         <x-icons.circle-check class="text-brand w-4 h-4 shrink-0" /> Heavy Weight Slabs Discounts
                     </div>
                 </div>
@@ -73,24 +92,33 @@
                 <h3 class="text-xl font-extrabold text-navy mb-4">Kolkata Shipping Scenarios We Serve</h3>
                 <ul class="space-y-4">
                     <li class="flex gap-3">
-                        <div class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">1</div>
+                        <div
+                            class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">
+                            1</div>
                         <div>
                             <h4 class="font-bold text-navy text-sm sm:text-base">Burrabazar Wholesale Shipments</h4>
-                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">Bulk transportation of textiles, block-print bedding, and handicrafts from Jaipur manufacturing zones to Kolkata markets.</p>
+                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">Bulk transportation of textiles,
+                                block-print bedding, and handicrafts from Jaipur manufacturing zones to Kolkata markets.</p>
                         </div>
                     </li>
                     <li class="flex gap-3">
-                        <div class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">2</div>
+                        <div
+                            class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">
+                            2</div>
                         <div>
                             <h4 class="font-bold text-navy text-sm sm:text-base">Salt Lake Corporate Transfers</h4>
-                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">Safe shipping of personal computers, luggage, and household boxes for IT professionals relocating from Rajasthan.</p>
+                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">Safe shipping of personal computers,
+                                luggage, and household boxes for IT professionals relocating from Rajasthan.</p>
                         </div>
                     </li>
                     <li class="flex gap-3">
-                        <div class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">3</div>
+                        <div
+                            class="h-6 w-6 rounded-full bg-accent text-brand flex items-center justify-center shrink-0 font-bold text-sm">
+                            3</div>
                         <div>
                             <h4 class="font-bold text-navy text-sm sm:text-base">Confidential Document Logistics</h4>
-                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">High-speed courier for academic forms, legal documents, contracts, and business tenders.</p>
+                            <p class="text-xs sm:text-sm text-muted-foreground mt-0.5">High-speed courier for academic
+                                forms, legal documents, contracts, and business tenders.</p>
                         </div>
                     </li>
                 </ul>
@@ -102,85 +130,103 @@
     <section class="bg-secondary/40 py-16 sm:py-20">
         <div class="mx-auto w-full max-w-7xl px-4 sm:px-6">
             <div class="mx-auto text-center max-w-3xl mb-12">
-                <div class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
+                <div
+                    class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
                     Services Offered
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
                     Tailored Shipping Solutions
                 </h2>
                 <p class="mt-3 text-muted-foreground text-sm sm:text-base max-w-2xl mx-auto">
-                    We offer a wide variety of transport services tailored to fit the weight, sensitivity, and budget of your package.
+                    We offer a wide variety of transport services tailored to fit the weight, sensitivity, and budget of
+                    your package.
                 </p>
             </div>
 
             <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
                 <!-- Card 1: Express Courier -->
-                <div class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
+                <div
+                    class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
+                        <div
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
                             <x-icons.package class="w-6 h-6" />
                         </div>
                         <h3 class="mt-4 font-bold text-navy text-lg">Document Express</h3>
                         <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
-                            Confidential legal folders, client reports, certificates, and invoices delivered securely via priority air routing.
+                            Confidential legal folders, client reports, certificates, and invoices delivered securely via
+                            priority air routing.
                         </p>
                     </div>
                     <div class="mt-4 pt-4 border-t border-border/60">
-                        <a href="{{ route('services.courier') }}" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
+                        <a href="{{ route('services.courier') }}"
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
                             Explore Service <x-icons.arrow-right class="w-3.5 h-3.5" />
                         </a>
                     </div>
                 </div>
 
                 <!-- Card 2: Luggage Transport -->
-                <div class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
+                <div
+                    class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
+                        <div
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
                             <x-icons.briefcase class="w-6 h-6" />
                         </div>
                         <h3 class="mt-4 font-bold text-navy text-lg">Luggage Moving</h3>
                         <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
-                            Move bags, boxes, and heavy suitcases without paying massive airline baggage fees. Includes door pickup and room drop.
+                            Move bags, boxes, and heavy suitcases without paying massive airline baggage fees. Includes door
+                            pickup and room drop.
                         </p>
                     </div>
                     <div class="mt-4 pt-4 border-t border-border/60">
-                        <a href="{{ route('services.luggage') }}" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
+                        <a href="{{ route('services.luggage') }}"
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
                             Explore Service <x-icons.arrow-right class="w-3.5 h-3.5" />
                         </a>
                     </div>
                 </div>
 
                 <!-- Card 3: Bulk Parcel -->
-                <div class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
+                <div
+                    class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
+                        <div
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
                             <x-icons.boxes class="w-6 h-6" />
                         </div>
                         <h3 class="mt-4 font-bold text-navy text-lg">Parcel & Gift Booking</h3>
                         <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
-                            Deliver gift boxes, electronics, appliances, and retail items. We offer on-site bubble wrapping and secure corrugated packaging.
+                            Deliver gift boxes, electronics, appliances, and retail items. We offer on-site bubble wrapping
+                            and secure corrugated packaging.
                         </p>
                     </div>
                     <div class="mt-4 pt-4 border-t border-border/60">
-                        <a href="{{ route('services.parcel') }}" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
+                        <a href="{{ route('services.parcel') }}"
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
                             Explore Service <x-icons.arrow-right class="w-3.5 h-3.5" />
                         </a>
                     </div>
                 </div>
 
                 <!-- Card 4: Commercial Cargo -->
-                <div class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
+                <div
+                    class="rounded-3xl border border-border bg-card p-6 shadow-soft hover:-translate-y-1 hover:shadow-elevated transition duration-300 flex flex-col justify-between">
                     <div>
-                        <div class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
+                        <div
+                            class="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-brand shrink-0">
                             <x-icons.truck class="w-6 h-6" />
                         </div>
                         <h3 class="mt-4 font-bold text-navy text-lg">Heavy B2B Cargo</h3>
                         <p class="mt-2 text-sm text-muted-foreground leading-relaxed">
-                            Cost-effective industrial shipping for manufacturers and wholesalers. Includes GST invoicing, insurance support, and LTL transport.
+                            Cost-effective industrial shipping for manufacturers and wholesalers. Includes GST invoicing,
+                            insurance support, and LTL transport.
                         </p>
                     </div>
                     <div class="mt-4 pt-4 border-t border-border/60">
-                        <a href="{{ route('services.cargo') }}" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
+                        <a href="{{ route('services.cargo') }}"
+                            class="inline-flex items-center gap-1.5 text-xs font-bold text-brand hover:underline">
                             Explore Service <x-icons.arrow-right class="w-3.5 h-3.5" />
                         </a>
                     </div>
@@ -215,7 +261,7 @@
                             </tr>
                             <tr class="hover:bg-accent/45 transition">
                                 <td class="p-4 font-semibold text-navy">Standard Express</td>
-                                class="p-4 text-muted-foreground">2 - 3 Days</td>
+                                <td class="p-4 text-muted-foreground">2 - 3 Days</td>
                                 <td class="p-4 text-muted-foreground">Apparel, Shifting Luggage, Carton boxes</td>
                             </tr>
                             <tr class="hover:bg-accent/45 transition">
@@ -233,10 +279,11 @@
                 <div class="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gold/30 blur-xl"></div>
                 <h3 class="text-2xl font-extrabold">Fair & Upfront Pricing</h3>
                 <p class="mt-3 text-white/85 text-sm sm:text-base leading-relaxed">
-                    Charges are calculated based on weight, volume (dimensional density), packaging, and choice of speed. 
+                    Charges are calculated based on weight, volume (dimensional density), packaging, and choice of speed.
                 </p>
                 <p class="mt-2 text-white/85 text-sm sm:text-base leading-relaxed">
-                    We offer dedicated promotional tariffs for students and corporate employees moving their households to Kolkata. Contact us to avail special route discounts.
+                    We offer dedicated promotional tariffs for students and corporate employees moving their households to
+                    Kolkata. Contact us to avail special route discounts.
                 </p>
                 <div class="mt-6 flex flex-wrap gap-3">
                     <a href="https://wa.me/91{{ config('services.info.phone') }}?text=Hi%20JM%20Courier%2C%20I%20want%20to%20know%20shipping%20rates%20from%20Jaipur%20to%20Kolkata."
@@ -256,7 +303,8 @@
     <section class="bg-secondary/40">
         <div class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
             <div class="mx-auto text-center max-w-2xl">
-                <div class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
+                <div
+                    class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
                     Benefits
                 </div>
                 <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">
@@ -311,7 +359,8 @@
     <!-- FAQ Section -->
     <section class="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 bg-secondary/30 rounded-3xl mb-12">
         <div class="mx-auto text-center max-w-2xl">
-            <div class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
+            <div
+                class="mb-3 inline-flex rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand">
                 FAQ
             </div>
             <h2 class="text-3xl font-extrabold text-navy sm:text-4xl">Jaipur to Kolkata Shipping FAQs</h2>
@@ -319,25 +368,33 @@
 
         <div class="mx-auto mt-8 max-w-3xl space-y-2 overflow-hidden px-4">
             <div class="faq-item rounded-2xl border border-border bg-card group">
-                <button class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
+                <button
+                    class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
                     <span>What is the transit time from Jaipur to Kolkata?</span>
-                    <x-icons.plus class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
+                    <x-icons.plus
+                        class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
                 </button>
-                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
+                <div
+                    class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
                     <p class="px-5 pb-5 text-sm text-muted-foreground">
-                        Air express packages are delivered within 1 to 2 days. Standard shipping options require 2 to 3 days, while surface bulk cargo is completed in 4 to 5 days.
+                        Air express packages are delivered within 1 to 2 days. Standard shipping options require 2 to 3
+                        days, while surface bulk cargo is completed in 4 to 5 days.
                     </p>
                 </div>
             </div>
 
             <div class="faq-item rounded-2xl border border-border bg-card group">
-                <button class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
+                <button
+                    class="faq-toggle flex w-full cursor-pointer items-center justify-between gap-4 p-5 font-bold text-navy text-left focus:outline-none">
                     <span>Do you offer home pickup in Jaipur for Kolkata packages?</span>
-                    <x-icons.plus class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
+                    <x-icons.plus
+                        class="h-4 w-4 shrink-0 text-brand transition duration-300 ease-out group-[.is-open]:rotate-45" />
                 </button>
-                <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
+                <div
+                    class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out opacity-0 group-[.is-open]:opacity-100">
                     <p class="px-5 pb-5 text-sm text-muted-foreground">
-                        Yes, doorstep pickup is 100% free across all areas in Jaipur (Mansarovar, Vaishali Nagar, Jhotwara, Jagatpura, Malviya Nagar, Bani Park, Sanganer, Sitapura, Pratap Nagar).
+                        Yes, doorstep pickup is 100% free across all areas in Jaipur (Mansarovar, Vaishali Nagar, Jhotwara,
+                        Jagatpura, Malviya Nagar, Bani Park, Sanganer, Sitapura, Pratap Nagar).
                     </p>
                 </div>
             </div>

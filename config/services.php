@@ -14,7 +14,7 @@ return [
     |
     */
     'info' => [
-        'phone' => env('INFO_PHONE', '8529236359'),
+        'phone' => env('INFO_PHONE', '8237847379'),
         'email' => env('INFO_EMAIL', 'Jmcurrierandluggage@gmail.com'),
         'address' => env('INFO_ADDRESS', '105, Chatrapati Marg, Sector 122, Hans Vihar, Sector 105, Mansarovar, Jaipur, Rajasthan 302020'),
     ],

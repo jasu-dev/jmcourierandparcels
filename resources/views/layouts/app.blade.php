@@ -11,6 +11,7 @@
     <meta property="og:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <meta name="twitter:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <link rel="canonical" href="{{ url()->current() }}">
+    <meta name="google-site-verification" content="r2NiPzC8_02gLFJ5Q9uwNgPmG-p12PyKVlpZ5ltC1ek" />
     @stack('meta')
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])
