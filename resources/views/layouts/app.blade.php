@@ -11,7 +11,10 @@
     <meta property="og:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <meta name="twitter:image" content="{{ asset('images/jm-courier-delivery.png') }}">
     <link rel="canonical" href="{{ url()->current() }}">
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
     <meta name="google-site-verification" content="r2NiPzC8_02gLFJ5Q9uwNgPmG-p12PyKVlpZ5ltC1ek" />
     @stack('meta')
     @fonts
